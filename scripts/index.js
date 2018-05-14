@@ -1,7 +1,7 @@
-/* global shoppingList */
+/* global shoppingList, $, store */
 'use strict';
 
-$(document).ready(function() {
+$(document).ready(function () {
   shoppingList.bindEventListeners();
   shoppingList.render();
 });
